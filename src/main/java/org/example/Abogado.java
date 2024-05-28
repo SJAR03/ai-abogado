@@ -1,5 +1,9 @@
-import java.io.*;
-import java.util.*;
+package org.example;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 public class Abogado {
     private Map<String, Integer> wordCount;
@@ -70,36 +74,5 @@ public class Abogado {
         System.out.println("Label Counts: " + labelCount);
         System.out.println("Word Counts: " + wordCount);
         System.out.println("Label Word Counts: " + labelWordCount);
-    }
-
-    public static void main(String[] args) {
-        Abogado classifier = new Abogado();
-
-        // Leer datos de entrenamiento desde un archivo
-        try (BufferedReader reader = new BufferedReader(new FileReader("data.txt"))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                classifier.train(line);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        // Imprimir modelo interno para depuración
-        classifier.printModel();
-
-        // Interacción con el usuario a través de la terminal
-        Scanner scanner = new Scanner(System.in);
-        while (true) {
-            System.out.println("Ingrese una frase para clasificar (o 'exit' para salir):");
-            String input = scanner.nextLine();
-            if (input.equalsIgnoreCase("exit")) {
-                break;
-            }
-            String classification = classifier.classify(input);
-            System.out.println("Clasificación: " + classification);
-        }
-
-        scanner.close();
     }
 }
