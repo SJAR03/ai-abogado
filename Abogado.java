@@ -52,9 +52,9 @@ public class Abogado {
 
         for (String label : labelCount.keySet()) {
             double logProb = Math.log(labelCount.get(label) / (double) totalDocuments);
+            int labelWordTotal = labelWordCount.get(label).values().stream().mapToInt(Integer::intValue).sum();
             for (String word : words) {
                 int wordFrequency = labelWordCount.getOrDefault(label, new HashMap<>()).getOrDefault(word, 0);
-                int labelWordTotal = labelWordCount.get(label).values().stream().mapToInt(Integer::intValue).sum();
                 double wordProb = (wordFrequency + 1) / (double) (labelWordTotal + vocabulary.size());
                 logProb += Math.log(wordProb);
             }
@@ -74,6 +74,8 @@ public class Abogado {
 
     public static void main(String[] args) {
         Abogado classifier = new Abogado();
+
+        // Leer datos de entrenamiento desde un archivo
         try (BufferedReader reader = new BufferedReader(new FileReader("data.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -83,11 +85,21 @@ public class Abogado {
             e.printStackTrace();
         }
 
-        // Test the classifier with a sample sentence
-        String testSentence = "Hoy es un mal día";
-        System.out.println("Clasificado como: " + classifier.classify(testSentence));
-
-        // Print the internal model (for debugging purposes)
+        // Imprimir modelo interno para depuración
         classifier.printModel();
+
+        // Interacción con el usuario a través de la terminal
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("Ingrese una frase para clasificar (o 'exit' para salir):");
+            String input = scanner.nextLine();
+            if (input.equalsIgnoreCase("exit")) {
+                break;
+            }
+            String classification = classifier.classify(input);
+            System.out.println("Clasificación: " + classification);
+        }
+
+        scanner.close();
     }
 }
