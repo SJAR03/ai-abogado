@@ -1,5 +1,63 @@
 Hoy es un buen día | positivo
-El sol nace para todos | meh
-Cuando despertó, el dinosaurio todavía estaba allí | negativo
-Pienso, luego como doritos raptor | irrelevante
-Hoy ha sido un día terrible | negativo
+El sol brilla y los pájaros cantan | positivo
+Estoy muy feliz con los resultados del proyecto | positivo
+La vida es hermosa cuando te rodeas de buena gente | positivo
+Me encanta pasar tiempo con mi familia | positivo
+Las vacaciones fueron fantásticas, disfruté cada momento | positivo
+El concierto fue increíble, la música era genial | positivo
+Hoy el tráfico fue un desastre | negativo
+No me siento bien, creo que estoy enfermando | negativo
+El proyecto fue un fracaso total | negativo
+Me siento muy cansado y sin energía | negativo
+Perdí mi billetera en el transporte público | negativo
+La reunión fue aburrida y no llegamos a ninguna conclusión | negativo
+El servicio en el restaurante fue terrible | negativo
+El cielo está nublado y parece que va a llover | neutro
+Voy a trabajar y luego a casa | neutro
+El gato está durmiendo en el sofá | neutro
+Hoy tengo una reunión a las 3 PM | neutro
+Me gusta el café por la mañana | neutro
+El libro que estoy leyendo es interesante | neutro
+Voy a salir a correr esta tarde | neutro
+Los perros son leales y amigables | positivo
+Las películas de acción son emocionantes | positivo
+Me siento agradecido por todo lo que tengo | positivo
+El nuevo restaurante en la esquina es excelente | positivo
+Las flores en el jardín han florecido hermosamente | positivo
+Los niños se divirtieron mucho en el parque | positivo
+La playa estaba tranquila y relajante | positivo
+El tráfico me estresa mucho | negativo
+No encuentro mis llaves y estoy retrasado | negativo
+Me duele la cabeza desde hace horas | negativo
+El clima es horrible, hace mucho frío | negativo
+No me gusta la comida que sirvieron en el evento | negativo
+Estoy muy decepcionado con el servicio al cliente | negativo
+El vecino hace mucho ruido y no puedo dormir | negativo
+Hoy voy a hacer la compra semanal | neutro
+El tren sale a las 8:30 AM | neutro
+Tengo que llamar al banco por la tarde | neutro
+He recibido un correo electrónico importante | neutro
+El perro necesita un baño | neutro
+Mañana es día de limpieza en casa | neutro
+Estoy leyendo las noticias de la mañana | neutro
+La amistad es un tesoro invaluable | positivo
+He recibido una buena noticia hoy | positivo
+La cena con amigos fue muy agradable | positivo
+El paisaje montañoso es impresionante | positivo
+Me siento optimista sobre el futuro | positivo
+He terminado una tarea difícil y me siento logrado | positivo
+El nuevo vecino es muy amable | positivo
+Estoy atrapado en un atasco de tráfico | negativo
+Tengo que hacer una visita al dentista mañana | negativo
+El vuelo fue cancelado y estoy atrapado en el aeropuerto | negativo
+Me siento mal porque discutí con un amigo | negativo
+El ordenador se ha roto y he perdido todo mi trabajo | negativo
+La película que vi ayer fue muy decepcionante | negativo
+La tienda estaba cerrada cuando llegué | negativo
+Voy a salir a comprar algunos víveres | neutro
+El calendario marca que hoy es lunes | neutro
+Tengo que hacer algunas tareas en casa | neutro
+El café de la mañana estaba un poco amargo | neutro
+Voy a pasear al perro después de cenar | neutro
+El coche necesita una revisión | neutro
+Mañana tengo una reunión temprano | neutro
